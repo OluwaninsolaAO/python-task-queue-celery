@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """A simple Job Definition for sleep"""
-from queue_service import app
 import time
-from celery.exceptions import MaxRetriesExceededError
+from queue_service import app
 
 
 @app.task
