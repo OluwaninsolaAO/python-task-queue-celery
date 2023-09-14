@@ -21,7 +21,7 @@ Language interoperability can also be achieved exposing an HTTP endpoint and hav
 A list of dependencies required for this project has been included in the `requirements.txt` file, this project also makes use of `redis` as the message broker and `sqlite` as the backend storage. These options can be configured or changed from the `celeryconfig.py` file at the project root.
 
 ```bash
-$ sudo apt install redis-cli
+$ sudo apt install redis
 $ pip install -r requirements.txt
 ```
 
